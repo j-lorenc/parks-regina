@@ -1,0 +1,25 @@
+.nav {
+	background-color: white;
+	border-bottom: 1px solid #aaa;
+	box-shadow: 1px 1px 1px #aaa;
+	
+	padding-left:30px;
+	margin-bottom:30px;
+	
+	a {
+		font-family: "Arial";
+		text-decoration: none;
+	}
+	
+	ul {
+		padding: 0;
+		
+		li {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	
+	
+}
