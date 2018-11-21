@@ -1,0 +1,63 @@
+.searchContainer{
+    
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.25);
+    
+    padding: 30px;
+    
+    
+    h1 {
+        color: white;
+        font-size: 54px;
+        font-family: "Lato";
+        text-shadow: 1px 1px 1px #111;
+    }
+    
+}
+
+.searchBar{
+    width:750px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #888;
+    
+    &:focus {
+        outline: none;
+    }
+}
+
+.searchbarContainer{
+    position: relative;
+    top:-50px;
+    text-align:center;
+}
+
+:global(.container){
+    margin: 0;
+}
+
+:global(body){
+    background-color: rgba(0,0,0,0.9);
+    
+    &:before{
+        z-index: -1;
+        display: block;
+        position: absolute;
+        content: '';
+        height:100%;
+        width:100%;
+        
+        background-image: url("/static/images/park.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(5px);
+        
+    }
+}

@@ -1,7 +1,7 @@
 const CONFIG = {
 	
 	APIS: {
-		PARKS: "http://localhost:8080/parks"
+		PARKS: "https://api.parks.regina.services/parks"
 	},
 
 	STRING: {

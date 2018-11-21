@@ -6,10 +6,10 @@ import styles from "./styles.scss"
 
 const ParkListView = ({parks}) => {
 	return (
-		<Fragment>
+		<div>
 			<h1>Test</h1>
 			{parks.map((park, idx)=>( <ParkView key={ idx} {...park}/>))}
-		</Fragment>
+		</div>
 	)
 }
 

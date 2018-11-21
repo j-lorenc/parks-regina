@@ -9,15 +9,12 @@ import {withRouter} from 'next/router'
 import Anime from 'react-anime';
 
 
+
 const HomeView = ({parks}) => {
+    
     return (
             <div className={styles.searchContainer}>
-
-                <div className={styles.searchbarContainer}>
-                    <h1>Find A Park Near You</h1>
-                    <input className={styles.searchBar} type="text" placeholder={`Search`}/>
-                </div>
-               
+                <h1>Jon</h1>
             </div>
     )
 }
